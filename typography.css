@@ -1,0 +1,123 @@
+html {
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1800px){
+    html {
+        font-size: 23px;
+    }
+}
+
+body {
+    background: #eeeeee;
+    color: #333333;
+    font-size: 1rem;
+    padding: 10%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Georgia", serif;
+}
+
+h1 { font-size: 2.2rem;}
+h2 { font-size: 2rem;}
+h3 { font-size: 1.8rem;}
+h4 { font-size: 1.6rem;}
+h5 { font-size: 1.4rem;}
+h6 { font-size: 1.2rem;}
+
+main, aside {
+    float: left;
+}
+
+main {
+    display: block;
+    width: 70%;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.page:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+aside {
+    width: 30%;
+    padding-left: 3rem;
+}
+
+aside p {
+    font-size: 24px;
+}
+
+aside a {
+    text-decoration: none;
+    color: green;
+}
+
+.align-right,
+.align-left{
+    border: 2px solid black;
+    padding: 1rem;
+    background: #eeeeee;
+    box-shadow: 0 0 2rem 0  rgba(0, 0, 0, 0.25);
+}
+
+.align-left {
+    float: left;
+    margin-right: 0.3rem;
+}
+
+.align-right {
+    float: right;
+    margin-left: 0.4rem;
+}
+
+blockquote {
+    border-left: 4px solid #dddddd;
+    font-style: italic;
+    margin-bottom: 0 0 1.5rem 2rem;
+    padding: 1rem 2rem;
+    float: left;
+}
+
+blockquote .autor {
+    text-align: right;
+}
+
+
+hr {
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 800px) {
+    main, aside {
+        display: block;
+    }
+}
